@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+.main{
+    background-image: url(bg1.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    height: 100vh;
+}    
+.logo{
+    color:darksalmon;
+    font-size:50px;
+    font-family:inherit;
+    padding-left:30px;
+    padding-top: 5px;
+}
+ol{
+    display:flex;
+}
+ol li{
+    font-size:20px;
+    list-style: none;
+    margin-left:350px;
+}
+ol li a{
+    transition: 0.5s ease-in;
+    text-decoration: none;
+    color:darkslategray;
+}
+ol li a:hover{
+    color:coral;
+}
+.form{
+    width: 250px;
+    height: 300px;
+    
+    background:bisque;
+    position: absolute;
+    top: 20px;
+    left: 850px;
+    border-radius: 10;
+    padding: 20px;
+    margin: 250px;
+}
+.form .bn{
+    background:salmon;
+    width:160px;
+    height:40px;
+    border:none;
+}
+.form .bn a{
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 20px;
+    color:azure;
+    transition: 0.1s ease-in-out;
+}
+.form .bn a:hover{
+    color:darkturquoise
+}
+.form input{
+    width:200px;
+    height:40px;
+    background:darkslategray;
+}
+
+.img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left:400px;
+    padding-top: 100px;
+    padding-bottom:200px;
+    grid-row-gap: 100px;
+    grid-column-gap:100px;
+}
+.con h1{
+    color:indianred;
+    margin-left: 60px;
+    font-size: 65px;
+    word-spacing: 10px;
+}
+.con p{
+    color:darkslategray;
+    margin-left: 60px;
+    font-family: cursive;
+    font-size: 20px;
+    padding-bottom: 900px;
+}    
+
